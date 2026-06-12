@@ -62,7 +62,7 @@ The classifier was checked for whether it works *for the right reasons* (`interp
 
 ### The disease is visible in the spectra
 
-!\[Spectral slowing: AD vs control](figures/band\_power\_AD\_vs\_control.png)
+![Spectral slowing: AD vs control](figures/band_power_AD_vs_control.png)
 
 Comparing mean relative band power between groups reproduces the textbook **spectral slowing** of Alzheimer's: power drains out of the fast rhythms and pools in the slow ones.
 
@@ -78,7 +78,7 @@ The two largest effects — the alpha collapse and the theta surge — are exact
 
 ### The model relies on the right bands
 
-!\[Random forest band importance](figures/band\_importance.png)
+![Random forest band importance](figures/band_importance.png)
 
 The forest's two most important bands are **theta (35%)** and **alpha (22%)** — precisely the two bands with the largest group differences. The model's decisions are driven by genuine disease physiology, not an incidental artifact.
 
